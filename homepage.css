@@ -1,0 +1,69 @@
+/* Homepage Styles */
+.hero {
+    text-align: center;
+    color: white;
+    padding: 50px 20px;
+    background: linear-gradient(to bottom, #1e2a47, #d4a017),
+                url('assets/images/background.jpeg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.hero h1 {
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px;
+    color: #1e2a47; /* Navy blue */
+    background-color: white;
+    border: 2px solid white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.hero .btn:hover {
+    background-color: #d4a017; /* Golden yellow */
+    color: white;
+}
+
+.services {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #f8f8f2; /* Off-white */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.services h2 {
+    text-align: center;
+    color: #d4a017; /* Golden yellow */
+    margin-bottom: 20px;
+}
+
+.services ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.services ul li {
+    padding: 10px;
+    border-bottom: 1px solid #d3d3d3; /* Light gray */
+    font-size: 1.1rem;
+}
+
+.services ul li:last-child {
+    border-bottom: none;
+}
